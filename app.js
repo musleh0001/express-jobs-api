@@ -59,4 +59,5 @@ const start = async () => {
 	}
 };
 
+// start DB and server
 start();
