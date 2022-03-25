@@ -31,6 +31,8 @@ app.use(
 		max: 100, // limit each IP to 100 requests per windowMs
 	})
 );
+
+// xss prevention
 app.use(express.json());
 app.use(helmet());
 app.use(cors());
